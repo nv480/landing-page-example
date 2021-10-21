@@ -1,0 +1,301 @@
+:root {
+    --color-blanco: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: #15181d;
+    box-shadow: -1px 25px 24px -4px rgba(0,0,0,0.71);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header img {
+    margin-left: 50px;
+    width: 80px;
+}
+
+nav {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+   margin-left: 25px;
+}
+
+nav a {
+   color: var(--color-blanco);
+   font-size: 2.5vh;
+   text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.big-title-content {
+    background-image: url('../img/149598.jpg');
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.col1 {
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 90%;
+}
+
+.col1 h1 {
+    color: var(--color-blanco);
+    font-size: 6vh;
+}
+
+.col1 p {
+    color: white;
+    font-size: 3.5vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: start;
+}
+
+.col1 a {
+   background-color: rgba(0, 0, 0, .5);
+   border-radius: 10px;
+   border: 1px solid var(--color-blanco); 
+   color: var(--color-blanco);
+   font-size: 25px;
+   text-decoration: none;
+   padding: 25px 25px 25px;
+   transition: 200ms;
+}
+
+.col1 a:hover {
+    color: black;
+    background-color: var(--color-blanco);
+}
+
+.col2 img {
+    width: 455px;
+    margin-top: 82px;
+}
+
+.main-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-input-content {
+    background-color: #1b1e26;
+    padding: 20px 20px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.small-input-content input {
+    text-align: center;
+    border-radius: 10px;
+    font-size: 2vh;
+    border: none;
+    width: 400px;
+    height: 40px;
+    margin-right: 35px;
+    margin-left: 25px;
+    outline: none;
+}
+
+.small-input-content .button {
+    color: var(--color-blanco);
+    cursor: pointer;
+    background-color: #7373c6;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    width: 400px;
+    height: 40px;
+    margin-right: 35px;
+    margin-left: 25px;
+    outline: none;
+    transition: 200ms;
+}
+
+.small-input-content .button:hover {
+    background: violet;
+}
+
+.cards-content {
+    margin: 0 auto;
+    margin-bottom: 35px;
+    width: 80%;
+}
+
+.cards-container {
+    display: flex;
+}
+
+.card {
+    border: 1px solid black;
+    margin-left: 25px;
+    padding: 15px 15px 15px;
+    width: 700px;
+}
+
+.card h3{
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card-color {
+    color: var(--color-blanco);
+    width: 700px;
+    background-color: #0091ff;
+    border: 1px solid black;
+    margin-left: 25px;
+    padding: 15px 15px 15px;
+}
+
+.card-color h3 {
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-color p {
+    text-align: center;
+}
+
+.product-info {
+    background-color: #dde0e7;
+    padding: 25px 25px 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-info h3 {
+    font-size: 3vh;
+    margin-bottom: 25px;
+}
+
+.product-info p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.accordion-content .menu {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu .container .btn-effect {
+    background: #969a9d;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 15px 15px 15px;
+}
+
+.btn-effect .changeColor {
+    color: var(--color-blanco);
+    font-size: 3vh;
+    padding: 10px;
+}
+
+.changeColor:hover {
+    color: #0087d8;
+    transition: 250ms;
+}
+
+.btn-effect .colorChange {
+    color: blue;
+}
+
+.menu .container .text-container {
+    background: gainsboro;
+    overflow: hidden;
+    height: 0;
+}
+
+.menu .container .active {
+    height: 100%;
+}
+
+.container .text-container p {
+    padding: 20px 20px 20px;
+}
+
+.team-content {
+    margin-top: 35px;
+    background-color: #007ff0;
+    padding: 30px 30px 30px;
+}
+
+.team-title {
+    color: var(--color-blanco);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.team-title h2 {
+    font-size: 5vh;
+    margin-bottom: 35px;
+}
+
+.team-title p {
+    font-size: 2vh;
+}
+
+.team-cards {
+    display: flex;
+}
+
+.card-team {
+    box-shadow: 1px 1px 21px 13px rgba(0,0,0,0.72);
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--color-blanco);
+    padding: 20px 20px 20px;
+}
+
+.card-team p {
+    margin-bottom: 25px;
+}
+
+.card-team a {
+    padding: 10px 20px 10px;
+}
+
+.card-team a img {
+    width: 35px;
+}
+
+footer {
+    color: var(--color-blanco) ;
+    background-color: #1e1f28;
+    margin-top: 25px;
+    padding: 15px 15px 15px;
+    text-align: center;
+}

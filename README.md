@@ -1,1 +1,1 @@
-# landing-page-example
+# landing-web
